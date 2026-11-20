@@ -1,4 +1,4 @@
-const mapsUrl = 'https://www.google.com/maps/place/Karz+South/@39.6105637,-77.7037393,17z'
+const mapsUrl = 'https://www.google.com/maps?cid=8503235790594785115'
 const mapEmbedUrl = 'https://maps.google.com/maps?q=39.6105637,-77.7037393&z=16&output=embed'
 
 export const business = {
