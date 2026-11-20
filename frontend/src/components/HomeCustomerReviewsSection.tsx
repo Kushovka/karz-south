@@ -3,16 +3,16 @@ import { business } from '../data/business'
 
 const reviews = [
   {
-    author: 'Lachell Wilkins',
-    text: "My experience was amazing! Mark is an honest salesman for real...he explained everything. It has been almost 6 months and I'm still just as satisfied as the day I bought it. I've been telling everyone I can to go to Mark if they're looking for a new used reliable mode of transportation.",
+    author: 'Todd Hahn',
+    text: "I recently bought a Dodge Ram fro Karz and I am very happy with my purchase. Even when there was an issue with one of the windows they worked with me to get it resolved quickly and I can't be happier with their service. My salesman Chuck was awesome to work with - very knowledgable and no pressure. It was the most enjoyable car buying experience I have ever had. I will definitely visit them in the future when I'm in the market for another vehicle.",
   },
   {
-    author: 'Miss C',
-    text: "I recently bought a 2009 Hyundai Sonata from Mark and it’s a really good car! He’s a very honest salesman and super polite! I’m glad i found his lot thanks to my parents. I will definitely recommend him if you’re looking to buy a used car. I’m sure I’ll purchase another car from him in the future! Thanks Mark!",
+    author: 'Christina Dana',
+    text: "This was my first time purchasing a car on my own without a co signer. My mother got a car from here and recommended. Chuck was an amazing help. I bought a 2009 Acura. It is very clean, well taken care of, and everything was up to par. I had an amazing time buying a car with him and I would recommend anyone to come here if you want friendly service. I was treated with the upmost respect. I am glad I had came here instead of some other places I had seen. :)",
   },
   {
-    author: 'John Labarr (Jay)',
-    text: "Bought a car from here. Hell of a nice guy. I recommend Mark all the way. He'll take care of you and very nice.",
+    author: 'Antoinette Griffin',
+    text: "I found this business after countless frustrations in dealing with several others. I went in already feeling defeated, but I pulled on the lot and was treated in such an awesome and refreshing manner. His name is Chuck!! He didn’t push a sale or try to throw me into any vehicle. He listened attentively to my wants and needs and really helped ease my anxiety of purchasing a new vehicle. In the end, I was able to purchase a car to fit my needs, to my liking and completely satisfied. Even after the purchase, I had a question about a feature and I went back to the dealer and was helped by both Chuck and Scott! I’d recommend any and everyone to Carz Inc. I also had the pleasure of meeting the owner Kay, and I expressed my gratitude. My experience with this establishment has been a breath of fresh air.",
   },
 ]
 
