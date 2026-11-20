@@ -5,8 +5,8 @@ export const HomeAboutSection = () => (
   <section className="home-about" aria-labelledby="home-about-title">
     <div className="home-about__photo">
       <img
-        src="/images/dealer-location-lot.webp"
-        alt="Vehicles parked at a dealership lot"
+        src="/images/karz-south-about.webp"
+        alt="Karz South dealership lot in Funkstown, Maryland"
         loading="lazy"
       />
     </div>
