@@ -28,7 +28,7 @@ export const HomePage = () => (
         <Link to="/inventory" className="mark-home-hero__shop">Shop All Inventory <FaChevronRight aria-hidden="true" /></Link>
       </aside>
       <div className="mark-home-hero__photo">
-        <img src="/images/dealer-location-hero.webp" alt="Vehicles parked at a dealership lot" fetchPriority="high" />
+        <img src="/images/karz-south-home-hero.webp" alt="Karz South dealership lot in Funkstown, Maryland" fetchPriority="high" />
       </div>
       <div className="mark-home-hero__intro">
         <div>
