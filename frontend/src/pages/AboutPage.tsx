@@ -8,7 +8,7 @@ const values = [
   { icon: FaCarSide, title: 'Quality Vehicles', text: 'A carefully selected inventory of used cars, trucks, and SUVs.' },
   { icon: FaUsers, title: 'Local & Trusted', text: 'A community-based dealership that puts customers first.' },
   { icon: FaHandshake, title: 'Honest Service', text: 'Clear information and a straightforward buying experience.' },
-  { icon: FaMapMarkerAlt, title: 'Convenient Location', text: <>Located right on US Highway 40 in<br /> Independence, MO.</> },
+  { icon: FaMapMarkerAlt, title: 'Convenient Location', text: <>Located at 302 S Edgewood Dr in<br /> Funkstown, MD.</> },
 ]
 
 const commitments = [
@@ -19,26 +19,26 @@ const commitments = [
 ]
 
 export const AboutPage = () => <main className="about-page about-modern">
-  <Seo title="About Mark's Pre-Owned Cars" description="Meet Mark's Pre-Owned Cars, a locally owned dealership serving Independence and nearby communities." />
+  <Seo title="About Karz South" description="Meet Karz South, a locally owned dealership serving Funkstown and nearby communities." />
 
   <section className="am-hero">
-    <img className="am-hero-photo" src="/images/marks-location-hero.webp" alt="Mark’s Pre-Owned Cars dealership lot in Independence, Missouri" />
+    <img className="am-hero-photo" src="/images/dealer-location-hero.webp" alt="Vehicles parked at a dealership lot" />
     <div className="am-hero-shade" />
     <div className="am-hero-inner">
       <p className="am-eyebrow">About Us</p>
       <h1>A Local Dealership<br />You Can Count On</h1>
-      <p className="am-hero-description">Proudly serving Independence and the<br className="am-desktop-break" /> surrounding communities with quality<br className="am-desktop-break" /> pre-owned vehicles.</p>
+      <p className="am-hero-description">Proudly serving Funkstown and the<br className="am-desktop-break" /> surrounding communities with quality<br className="am-desktop-break" /> pre-owned vehicles.</p>
       <Link to="/inventory" className="am-button am-button--red">View Our Inventory <FaArrowRight /></Link>
     </div>
   </section>
 
   <section className="am-intro">
     <div className="am-intro-copy">
-      <h2>About Mark’s Pre-Owned Cars</h2>
-      <p>At Mark’s Pre-Owned Cars, we’re a locally owned and operated dealership in Independence, Missouri, focused on one simple thing — helping our customers find a reliable, affordable vehicle.</p>
+      <h2>About Karz South</h2>
+      <p>At Karz South, we’re a locally owned and operated dealership in Funkstown, Maryland, focused on one simple thing — helping our customers find a reliable, affordable vehicle.</p>
       <p>We offer a selection of quality used cars, trucks, and SUVs, with straightforward service and a no-pressure approach. Our goal is to make the buying process easy, honest, and stress-free.</p>
     </div>
-    <img src="/images/marks-location-lot.webp" alt="Vehicles parked across the Mark’s Pre-Owned Cars lot" loading="lazy" />
+    <img src="/images/dealer-location-lot.webp" alt="Vehicles parked across a dealership lot" loading="lazy" />
   </section>
 
   <section className="am-values" aria-label="What customers can expect">
@@ -50,7 +50,7 @@ export const AboutPage = () => <main className="about-page about-modern">
   </section>
 
   <section className="am-commitment">
-    <img src="/images/marks-location-roadside.webp" alt="Mark’s Pre-Owned Cars lot along the roadside" loading="lazy" />
+    <img src="/images/dealer-location-roadside.webp" alt="Dealership lot along the roadside" loading="lazy" />
     <div className="am-commitment-copy">
       <h2>Our Commitment</h2>
       <p>We stand behind the vehicles we sell and work hard to earn the trust of every customer. Whether you’re buying your first vehicle, upgrading, or looking for a dependable truck or SUV, we’re here to help you find the right fit.</p>
@@ -59,11 +59,11 @@ export const AboutPage = () => <main className="about-page about-modern">
   </section>
 
   <section className="am-visit">
-    <img src="/images/marks-location-hero.webp" alt="" aria-hidden="true" />
+    <img src="/images/dealer-location-hero.webp" alt="" aria-hidden="true" />
     <div className="am-visit-shade" />
     <div className="am-visit-content">
       <h2>Visit Us Today</h2>
-      <p>Stop by our lot in Independence, MO, browse our inventory,<br className="am-desktop-break" /> and see why so many customers choose Mark’s Pre-Owned Cars.</p>
+      <p>Stop by our lot in Funkstown, MD, browse our inventory,<br className="am-desktop-break" /> and see why so many customers choose Karz South.</p>
       <div className="am-visit-actions">
         <a className="am-button am-button--red" href={business.mapsUrl} target="_blank" rel="noreferrer"><FaMapMarkerAlt /> Get Directions</a>
         <a className="am-button am-button--light" href={business.phoneHref} onClick={() => trackContactCta('phone_click', 'About Page Visit Us Phone')}><FaPhoneAlt /> {business.phoneDisplay}</a>

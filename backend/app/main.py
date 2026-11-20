@@ -10,7 +10,7 @@ from app.api.vehicles import router as vehicles_router
 from app.core.config import settings
 
 
-app = FastAPI(title="Mark's Pre-Owned Cars API")
+app = FastAPI(title="Karz South API")
 
 
 app.add_middleware(

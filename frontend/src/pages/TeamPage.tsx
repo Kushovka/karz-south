@@ -20,14 +20,14 @@ const teamPortraits = [
 
 export const TeamPage = () => (
   <main className="team-page">
-    <Seo title="Our Team" description="Contact Mark's Pre-Owned Cars about our current inventory." />
+    <Seo title="Our Team" description="Contact Karz South about our current inventory." />
     <section className="team-section" aria-labelledby="team-title">
       <div className="team-intro">
         <div className="team-intro-copy">
-          <h1 id="team-title">Contact<br />Mark’s Pre-Owned Cars</h1>
+          <h1 id="team-title">Contact<br />Karz South</h1>
           <p className="team-intro-description">Call or visit us with questions about our current vehicles.</p>
         </div>
-        <aside className="team-visit-panel" aria-label="Visit or call Mark's Pre-Owned Cars">
+        <aside className="team-visit-panel" aria-label="Visit or call Karz South">
           <FaMapMarkerAlt className="team-visit-icon" aria-hidden="true" />
           <div className="team-visit-copy">
             <span>Visit Us</span>
@@ -65,7 +65,7 @@ export const TeamPage = () => (
     </section>
     <section className="team-promise" aria-labelledby="team-promise-title">
       <div className="team-promise-inner">
-        <h2 id="team-promise-title">Visit Mark’s Pre-Owned Cars</h2>
+        <h2 id="team-promise-title">Visit Karz South</h2>
         <div className="team-promise-points">
           <article><h3>Address</h3><p>{business.address}, {business.cityState} {business.postalCode}</p></article>
           <article><h3>Phone</h3><p>{business.phoneDisplay}</p></article>

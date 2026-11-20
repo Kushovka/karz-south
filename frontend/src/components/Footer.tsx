@@ -29,11 +29,11 @@ const salesHours = [
 export const Footer = () => (
   <footer className="dealer-footer">
     <div className="dealer-footer__main">
-      <section className="dealer-footer__intro" aria-label="Mark's Pre-Owned Cars">
-        <Link to="/" className="dealer-footer__logo" aria-label="Mark's Pre-Owned Cars home">
-          <img src="/images/marks-preowned-logo.png" alt="Mark’s Pre-Owned" loading="lazy" />
+      <section className="dealer-footer__intro" aria-label="Karz South">
+        <Link to="/" className="dealer-footer__logo" aria-label="Karz South home">
+          <img src="/images/karz-south-logo.png" alt="Karz South" loading="lazy" />
         </Link>
-        <p>Quality used cars, trucks, and SUVs at fair prices, here in Independence, Missouri.</p>
+        <p>Quality used cars, trucks, and SUVs at fair prices, here in Funkstown, Maryland.</p>
       </section>
 
       <nav className="dealer-footer__links" aria-label="Quick links">
@@ -74,7 +74,7 @@ export const Footer = () => (
     </div>
 
     <div className="dealer-footer__bottom">
-      <span>© 2026 Mark&apos;s Pre-Owned Cars. All rights reserved.</span>
+      <span>© 2026 Karz South. All rights reserved.</span>
       <div><Link to="/privacy-policy">Privacy Policy</Link><Link to="/terms">Terms of Use</Link><a href="/sitemap.xml">Sitemap</a></div>
     </div>
   </footer>

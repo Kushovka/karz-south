@@ -6,7 +6,7 @@ import { business } from '../data/business'
 import { trackContactCta } from '../utils/ctaTracking'
 
 const guaranteeTerms = [
-  'Applies to vehicles purchased at Mark’s Pre-Owned.',
+  'Applies to vehicles purchased at Karz South.',
   'Return within 72 hours of the time of purchase.',
   'Limited to 250 miles of additional driving.',
   'Vehicle must be in substantially the same condition as purchased.',

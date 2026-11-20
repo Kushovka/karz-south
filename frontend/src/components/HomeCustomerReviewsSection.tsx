@@ -22,7 +22,7 @@ export const HomeCustomerReviewsSection = () => (
       <header className="home-reviews__heading">
         <p className="home-reviews__eyebrow">Customer Reviews</p>
         <h2 id="home-reviews-title">What Our Customers Say</h2>
-        <p className="home-reviews__intro">A few words from customers about their experience with Mark’s Pre-Owned Cars.</p>
+        <p className="home-reviews__intro">A few words from customers about their experience with Karz South.</p>
       </header>
       <div className="home-reviews__grid">
         {reviews.map((review) => (

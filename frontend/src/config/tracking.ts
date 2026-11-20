@@ -7,7 +7,7 @@ export const trackingConfig = {
     leadEventName: 'Lead',
     viewContentEventName: 'ViewContent',
     pageViewEventName: 'PageView',
-    defaultLeadContentPrefix: 'marks-preowned-cars',
+    defaultLeadContentPrefix: 'karz-south',
     advancedMatchingFields: ['em', 'ph', 'fn', 'ln', 'external_id', 'fbp', 'fbc'],
   },
 }

@@ -2961,7 +2961,7 @@ a[class*="action"] {
 .about-page .about-visit-button:not(.about-visit-button--secondary):not(.about-visit-button--light) { border-color:#B71922; background:#B71922; color:#fff; }
 .about-page .about-visit-button--secondary { border-color:#B71922; background:#fff; color:#B71922; }
 
-/* Contact page layout follows the supplied Mark's Pre-Owned Cars reference. */
+/* Contact page layout follows the supplied Karz South reference. */
 .contact-reference { --cr-navy:#1d2e42; --cr-red:#ae352f; --cr-muted:#56616d; background:#f8f7f2; color:var(--cr-navy); font-family:var(--font-body),sans-serif; }
 .cr-container { width:min(100% - 86px,1280px); margin-inline:auto; }
 .cr-intro { padding:12px 0 17px; border-bottom:1px solid #e7e3d9; }
@@ -3036,7 +3036,7 @@ a[class*="action"] {
 
 /* Contact page rebuilt around the supplied reference composition. */
 .contact-redesign { --contact-red:#b71922; --contact-navy:#243b53; display:block; background:#fff; color:#111d2d; }
-.contact-redesign__hero { display:flex; min-height:310px; align-items:center; padding:42px max(24px,calc((100% - 1570px)/2)); background:linear-gradient(90deg,rgba(9,15,19,.9) 0%,rgba(9,15,19,.72) 31%,rgba(9,15,19,.08) 70%),url('/images/marks-location-hero.webp') center 54%/cover no-repeat; color:#fff; }
+.contact-redesign__hero { display:flex; min-height:310px; align-items:center; padding:42px max(24px,calc((100% - 1570px)/2)); background:linear-gradient(90deg,rgba(9,15,19,.9) 0%,rgba(9,15,19,.72) 31%,rgba(9,15,19,.08) 70%),url('/images/dealer-location-hero.webp') center 54%/cover no-repeat; color:#fff; }
 .contact-redesign__hero-inner { max-width:490px; }
 .contact-redesign__eyebrow { margin:0 0 12px; color:#fff; font-size:15px; font-weight:700; letter-spacing:.04em; text-transform:uppercase; }
 .contact-redesign__hero h1 { max-width:470px; margin:0 0 12px; color:#fff; font-size:clamp(42px,4vw,54px); line-height:1.02; }
@@ -3077,7 +3077,7 @@ a[class*="action"] {
 .contact-redesign__map-card p { display:grid; grid-template-columns:30px 1fr; gap:12px; align-items:start; margin:0 0 16px; color:#111d2d; font-size:15px; line-height:1.5; }
 .contact-redesign__map-card p svg { margin-top:3px; color:var(--contact-red); font-size:20px; }
 .contact-redesign__map-card > a { display:flex; min-height:42px; align-items:center; justify-content:center; gap:12px; border:1px solid var(--contact-red); border-radius:6px; color:#a9141b; font-size:14px; font-weight:700; letter-spacing:.04em; text-decoration:none; text-transform:uppercase; }
-.contact-redesign__cta { min-height:245px; padding:38px 24px; background:linear-gradient(90deg,rgba(17,45,69,.95),rgba(17,45,69,.84)),url('/images/marks-location-hero.webp') center 70%/cover no-repeat; color:#fff; }
+.contact-redesign__cta { min-height:245px; padding:38px 24px; background:linear-gradient(90deg,rgba(17,45,69,.95),rgba(17,45,69,.84)),url('/images/dealer-location-hero.webp') center 70%/cover no-repeat; color:#fff; }
 .contact-redesign__cta-inner { display:grid; width:min(100%,1120px); grid-template-columns:112px minmax(0,1fr); gap:28px; align-items:center; margin:0 auto; }
 .contact-redesign__cta-icon { display:grid; min-height:92px; place-items:center; border-right:2px solid rgba(255,255,255,.85); font-size:58px; }
 .contact-redesign__cta-icon img { display:block; width:72px; height:72px; object-fit:contain; }
@@ -3179,7 +3179,7 @@ a[class*="action"] {
 }
 
 /* Contact hero uses the same text position and typography as About. */
-#root .contact-redesign__hero { display:block; min-height:355px; padding:0; background:linear-gradient(90deg,rgba(9,17,23,.92) 0%,rgba(9,17,23,.74) 31%,rgba(9,17,23,.2) 68%,rgba(9,17,23,.02) 100%),url('/images/marks-location-hero.webp') center 55%/cover no-repeat; }
+#root .contact-redesign__hero { display:block; min-height:355px; padding:0; background:linear-gradient(90deg,rgba(9,17,23,.92) 0%,rgba(9,17,23,.74) 31%,rgba(9,17,23,.2) 68%,rgba(9,17,23,.02) 100%),url('/images/dealer-location-hero.webp') center 55%/cover no-repeat; }
 #root .contact-redesign__hero-inner { display:flex; width:calc(100% - 88px); max-width:1440px; min-height:355px; flex-direction:column; align-items:flex-start; justify-content:center; margin-inline:auto; }
 #root .contact-redesign__eyebrow { margin:0 0 8px; font-family:var(--font-body),Arial,sans-serif; font-size:clamp(15px,1.1vw,19px); font-weight:750; line-height:1.2; letter-spacing:.04em; }
 #root .contact-redesign__hero h1 { max-width:520px; margin:0 0 14px; font-family:var(--font-body),Arial,sans-serif!important; font-size:clamp(34px,4vw,42px); font-weight:750; letter-spacing:-.035em!important; line-height:1.05; text-wrap:balance; }
@@ -3187,7 +3187,7 @@ a[class*="action"] {
 @media(max-width:760px) {
   #root .contact-redesign__hero, #root .contact-redesign__hero-inner { min-height:340px; }
   #root .contact-redesign__hero-inner { width:calc(100% - 40px); }
-  #root .contact-redesign__hero { background-image:linear-gradient(90deg,rgba(9,17,23,.88),rgba(9,17,23,.44)),url('/images/marks-location-hero.webp'); }
+  #root .contact-redesign__hero { background-image:linear-gradient(90deg,rgba(9,17,23,.88),rgba(9,17,23,.44)),url('/images/dealer-location-hero.webp'); }
 }
 
 #root .contact-redesign__cta { display:grid; align-items:center; }
@@ -3501,7 +3501,7 @@ a[class*="action"] {
   .warranty-final-actions .warranty-button { width:auto; min-height:50px; max-width:none; padding-inline:23px; font-size:13px; }
 }
 
-/* Mark's homepage: classic dealership header, editorial hero, inventory finder, category tiles. */
+/* Homepage: classic dealership header, editorial hero, inventory finder, category tiles. */
 .reference-home-header { background: var(--color-navy); color: var(--color-light); box-shadow:0 3px 10px rgb(28 43 62 / 3%); }
 .reference-utility-bar { display:grid; min-height:48px; grid-template-columns:1fr 1fr; align-items:center; gap:20px; border-bottom:1px solid rgba(242,243,244,.26); background:var(--color-navy); padding:0 clamp(24px,4vw,64px); color:var(--color-cream); font-family:var(--font-heading),Georgia,serif; font-size:15px; }
 .reference-utility-bar > a, .reference-utility-hours { display:flex; align-items:center; gap:12px; white-space:nowrap; }
@@ -4799,7 +4799,7 @@ a[class*="action"] {
 #site-header .compact-header button[aria-label="Open menu"] { border-color:var(--color-light); color:var(--color-light); }
 .dealer-footer__main { color:var(--color-light); }
 
-/* Mark's header and first screen mirror the supplied Classic American Auto reference. */
+/* Header and first screen mirror the supplied Classic American Auto reference. */
 #site-header.reference-home-header { background:var(--color-white); color:var(--color-charcoal); box-shadow:none; }
 .mark-site-header { position:sticky; top:0; z-index:60; display:grid; min-height:144px; grid-template-columns:minmax(280px,26.8vw) minmax(0,1fr); background:var(--color-white); }
 .mark-site-brand { display:flex; min-width:0; align-items:center; justify-content:center; padding:0 16px; background:var(--color-navy); color:var(--color-white); text-decoration:none; transition:background .22s ease; }
@@ -5093,7 +5093,7 @@ a[class*="action"] {
 .home-contact__detail--hours { align-items:start; }
 .home-contact__detail--hours .home-contact__icon { margin-top:2px; }
 .home-contact__detail--hours strong { font-size:15px; }
-.home-contact__photo { display:flex; min-width:0; min-height:clamp(560px,38vw,680px); align-items:center; justify-content:flex-end; padding:clamp(24px,3.4vw,58px); background:#dce3e8 url('/images/marks-location-roadside.webp') center/cover no-repeat; }
+.home-contact__photo { display:flex; min-width:0; min-height:clamp(560px,38vw,680px); align-items:center; justify-content:flex-end; padding:clamp(24px,3.4vw,58px); background:#dce3e8 url('/images/dealer-location-roadside.webp') center/cover no-repeat; }
 .home-contact__form-card { width:min(100%,570px); border-radius:6px; background:rgba(255,255,255,.96); padding:clamp(22px,2vw,34px); box-shadow:0 14px 40px rgba(23,39,52,.12); }
 .home-contact__form-card h3 { margin:0; color:var(--color-navy); font-family:var(--font-heading),Georgia,serif; font-size:clamp(29px,2.5vw,42px); font-weight:700; letter-spacing:-.025em; line-height:1.1; }
 .home-contact__form-card > p { margin:10px 0 18px; color:#687887; font-size:clamp(15px,1.1vw,18px); line-height:1.45; }
@@ -5714,7 +5714,7 @@ a[class*="action"] {
 #root .delivery-redesign__form > div:last-of-type { margin-top:11px; }
 #root .delivery-redesign__form > div:last-of-type button { min-height:41px; border-radius:5px; background:#9d2024; font-size:15px; }
 #root .delivery-redesign__form > div:last-of-type button:hover { background:#7e171b; }
-#root .delivery-redesign__cta { position:relative; display:flex; min-height:190px; flex-direction:column; align-items:center; justify-content:center; padding:25px 20px; overflow:hidden; background:linear-gradient(90deg,rgba(25,45,64,.94),rgba(36,59,83,.92)),url('/images/marks-location-hero.webp') center 56%/cover; color:white; text-align:center; }
+#root .delivery-redesign__cta { position:relative; display:flex; min-height:190px; flex-direction:column; align-items:center; justify-content:center; padding:25px 20px; overflow:hidden; background:linear-gradient(90deg,rgba(25,45,64,.94),rgba(36,59,83,.92)),url('/images/dealer-location-hero.webp') center 56%/cover; color:white; text-align:center; }
 #root .delivery-redesign__cta h2 { margin:0 0 5px; color:white; font-size:clamp(1.9rem,3vw,2.45rem); line-height:1.1; }
 #root .delivery-redesign__cta > p { margin:0; color:white; font-size:16px; }
 #root .delivery-redesign__cta > div { display:flex; flex-wrap:wrap; justify-content:center; gap:18px; margin-top:16px; }
@@ -5874,7 +5874,7 @@ a[class*="action"] {
 #root .warranty-redesign__benefits article > svg { color:var(--color-red); font-size:40px; }
 #root .warranty-redesign__benefits h3 { margin:0 0 4px; font-size:20px; line-height:1.2; }
 #root .warranty-redesign__benefits p { margin:0; color:#333b44; font-size:15px; line-height:1.4; }
-#root .warranty-redesign__cta { display:flex; min-height:235px; flex-direction:column; align-items:center; justify-content:center; padding:30px 22px; background:linear-gradient(90deg,rgba(25,45,64,.94),rgba(36,59,83,.92)),url('/images/marks-location-hero.webp') center 56%/cover; color:#fff; text-align:center; }
+#root .warranty-redesign__cta { display:flex; min-height:235px; flex-direction:column; align-items:center; justify-content:center; padding:30px 22px; background:linear-gradient(90deg,rgba(25,45,64,.94),rgba(36,59,83,.92)),url('/images/dealer-location-hero.webp') center 56%/cover; color:#fff; text-align:center; }
 #root .warranty-redesign__cta h2 { margin:0 0 7px; color:#fff; font-size:clamp(2rem,3.2vw,2.75rem); line-height:1.1; }
 #root .warranty-redesign__cta > p { max-width:780px; margin:0; color:#fff; font-size:18px; line-height:1.4; }
 #root .warranty-redesign__cta > div { display:flex; flex-wrap:wrap; justify-content:center; gap:18px; margin-top:19px; }
@@ -5995,7 +5995,7 @@ a[class*="action"] {
 #root .guarantee-redesign__terms-list ul { display:grid; gap:9px; margin:17px 0 0; padding:0; list-style:none; }
 #root .guarantee-redesign__terms-list li { display:grid; grid-template-columns:22px minmax(0,1fr); gap:12px; align-items:start; color:#263747; font-family:var(--font-body),Arial,sans-serif!important; font-size:17px; line-height:1.4; }
 #root .guarantee-redesign__terms-list li svg { width:20px; height:20px; margin-top:2px; color:var(--color-red); stroke-width:3; }
-#root .guarantee-redesign__cta { display:flex; min-height:235px; flex-direction:column; align-items:center; justify-content:center; padding:30px 22px; background:linear-gradient(90deg,rgba(25,45,64,.94),rgba(36,59,83,.92)),url('/images/marks-location-hero.webp') center 56%/cover; color:#fff; text-align:center; }
+#root .guarantee-redesign__cta { display:flex; min-height:235px; flex-direction:column; align-items:center; justify-content:center; padding:30px 22px; background:linear-gradient(90deg,rgba(25,45,64,.94),rgba(36,59,83,.92)),url('/images/dealer-location-hero.webp') center 56%/cover; color:#fff; text-align:center; }
 #root .guarantee-redesign__cta h2 { margin:0 0 7px; color:#fff; font-family:var(--font-heading),Georgia,serif!important; font-size:clamp(36px,3.2vw,48px); font-weight:750; letter-spacing:-.035em!important; line-height:1.1; text-wrap:balance; }
 #root .guarantee-redesign__cta > p { max-width:780px; margin:0; color:#fff; }
 #root .guarantee-redesign__cta-actions { display:flex; flex-wrap:wrap; justify-content:center; gap:18px; margin-top:19px; }

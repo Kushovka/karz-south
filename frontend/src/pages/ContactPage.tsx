@@ -8,7 +8,7 @@ const phoneHref = business.phoneHref || business.contactHref
 
 export const ContactPage = () => (
   <main className="contact-page contact-redesign">
-    <Seo title="Contact" description="Call, visit, or send a message to Mark's Pre-Owned Cars in Independence, MO." />
+    <Seo title="Contact" description="Call, visit, or send a message to Karz South in Funkstown, MD." />
 
     <section className="contact-redesign__hero">
       <div className="contact-redesign__hero-inner">
@@ -18,7 +18,7 @@ export const ContactPage = () => (
       </div>
     </section>
 
-    <section className="contact-redesign__main" aria-label="Contact Mark’s Pre-Owned Cars">
+    <section className="contact-redesign__main" aria-label="Contact Karz South">
       <div className="contact-redesign__form-column">
         <div className="contact-redesign__form-heading">
           <div className="lead-form-heading-copy"><h2>Send Us a Message</h2><p className="contact-redesign__intro">Fill out the form below and we’ll get back to you as soon as possible.</p></div>
@@ -37,13 +37,13 @@ export const ContactPage = () => (
         <div className="contact-redesign__info-row contact-redesign__hours">
           <span className="contact-redesign__icon"><FaClock /></span><div><strong>Hours of Operation</strong><span>Mon, Fri: 9:00 AM – 5:00 PM<br />Tue – Thu: 1:00 PM – 5:00 PM<br />Sat: 9:00 AM – 3:00 PM<br />Sun: Closed</span></div>
         </div>
-        <img className="contact-redesign__location-photo" src="/images/marks-location-lot.webp" alt="Vehicles on the Mark’s Pre-Owned Cars lot in Independence" loading="lazy" />
+        <img className="contact-redesign__location-photo" src="/images/dealer-location-lot.webp" alt="Vehicles parked at a dealership lot" loading="lazy" />
       </aside>
     </section>
 
     <section className="contact-redesign__map-section" aria-label="Find our dealership">
       <div className="contact-redesign__map-wrap">
-        <iframe title="Map to Mark’s Pre-Owned Cars" loading="lazy" referrerPolicy="no-referrer-when-downgrade" src={business.mapEmbedUrl} />
+        <iframe title="Map to Karz South" loading="lazy" referrerPolicy="no-referrer-when-downgrade" src={business.mapEmbedUrl} />
         <div className="contact-redesign__map-card">
           <h2>Find Us</h2>
           <p><FaMapMarkerAlt /><span>{business.address}<br />{business.cityState} {business.postalCode}</span></p>

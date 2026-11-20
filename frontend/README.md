@@ -1,6 +1,6 @@
-# Mark's Pre-Owned Cars Frontend
+# Karz South Frontend
 
-React/Vite frontend for Mark's Pre-Owned Cars dealership website.
+React/Vite frontend for Karz South dealership website.
 
 Quick start:
 

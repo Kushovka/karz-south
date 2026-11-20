@@ -1,6 +1,6 @@
-# Mark's Pre-Owned Cars Backend
+# Karz South Backend
 
-FastAPI backend for the Mark's Pre-Owned Cars inventory and lead capture flow.
+FastAPI backend for the Karz South inventory and lead capture flow.
 
 ## Endpoints
 

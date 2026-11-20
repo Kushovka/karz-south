@@ -4,7 +4,7 @@ import { business } from '../data/business'
 import { trackContactCta } from '../utils/ctaTracking'
 
 const terms = [
-  ['Website information', "Inventory, pricing, mileage, equipment, photos, availability, and vehicle details are provided for convenience and may change without notice. Confirm all details directly with Mark's Pre-Owned Cars before relying on them."],
+  ['Website information', "Inventory, pricing, mileage, equipment, photos, availability, and vehicle details are provided for convenience and may change without notice. Confirm all details directly with Karz South before relying on them."],
   ['Vehicle availability', 'A vehicle is not held, reserved, or sold until the required dealership paperwork, payment, and approval steps are completed. Online inquiries do not create a purchase agreement.'],
   ['Pricing and fees', 'Listed prices may not include tax, title, registration, dealer documentation, optional products, shipping, or other government and third-party charges unless specifically stated.'],
   ['Warranty and returns', 'Warranty, return, deductible, coverage, and exclusion details are controlled by the signed buyer documents and any warranty contract provided at purchase.'],
@@ -13,7 +13,7 @@ const terms = [
 
 export const TermsPage = () => (
   <>
-    <Seo title="Terms" description="Review Mark's Pre-Owned Cars website terms for inventory, pricing, warranty, and website use." />
+    <Seo title="Terms" description="Review Karz South website terms for inventory, pricing, warranty, and website use." />
     <section className="section soft-band">
       <SectionHeading eyebrow="Terms" title="Website Terms" text="Important conditions for using the site and reviewing dealership information." />
       <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">

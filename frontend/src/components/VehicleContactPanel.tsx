@@ -17,7 +17,7 @@ export const VehicleContactPanel = ({ vehicle, title, headingId = 'vehicle-detai
     <div className="vehicle-detail-contact-heading">
       <div className="lead-form-heading-copy"><h2 id={headingId}>Have a Question?</h2><p>Fill out the form below and our team will get back to you shortly.</p></div>
     </div>
-    <LeadForm title="Send Message" vehicleId={vehicle.id} vehicleContentId={vehicle.stockNumber || vehicle.id} vehicleName={title} vehicleValue={vehicle.price} variant="vehicle-inline" className="vehicle-detail-contact-form" phonePlaceholder="(816) 358-0100" messagePlaceholder="Message" fieldLabels={{ name: 'Your Name', phone: 'Phone Number', email: 'Email Address', message: 'Message' }} />
+    <LeadForm title="Send Message" vehicleId={vehicle.id} vehicleContentId={vehicle.stockNumber || vehicle.id} vehicleName={title} vehicleValue={vehicle.price} variant="vehicle-inline" className="vehicle-detail-contact-form" phonePlaceholder="(240) 201-2988" messagePlaceholder="Message" fieldLabels={{ name: 'Your Name', phone: 'Phone Number', email: 'Email Address', message: 'Message' }} />
     <a href={phoneHref} className="vehicle-detail-contact-panel__phone" onClick={() => trackContactCta('phone_click', 'Vehicle Question Panel Phone')}><FaPhoneAlt aria-hidden="true" />{business.phoneDisplay}</a>
   </aside>
 )

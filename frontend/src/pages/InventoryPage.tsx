@@ -211,7 +211,7 @@ export const InventoryPage = () => {
   </div>
 
   return <>
-    <Seo title="Used Cars in Independence, MO" description="Browse used cars, SUVs, trucks, and crossovers at Mark's Pre-Owned Cars in Independence, MO." />
+    <Seo title="Used Cars in Funkstown, MD" description="Browse used cars, SUVs, trucks, and crossovers at Karz South in Funkstown, MD." />
     <section className="inventory-page">
       <header className="inventory-hero">
         <div className="inventory-hero__inner">

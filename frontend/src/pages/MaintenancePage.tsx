@@ -29,7 +29,7 @@ export const MaintenancePage = () => {
         <p className="mt-8 text-sm font-normal uppercase tracking-[0.18em] text-[var(--color-accent)]">Website Update</p>
         <h1 className="mt-4 text-4xl font-normal leading-tight sm:text-5xl">We are improving the website.</h1>
         <p className="mx-auto mt-5 max-w-xl text-lg font-normal leading-8 text-white/75">
-          Mark's Pre-Owned Cars is making updates to provide a better online experience. Please check back soon.
+          Karz South is making updates to provide a better online experience. Please check back soon.
         </p>
         <div className="mx-auto mt-8 h-px max-w-sm bg-white/15" />
         <p className="mt-6 text-sm font-normal text-white/70">

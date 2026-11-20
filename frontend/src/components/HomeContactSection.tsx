@@ -41,7 +41,7 @@ export const HomeContactSection = () => (
         <LeadForm
           title="Send Message"
           variant="contact"
-          phonePlaceholder="(816) 358-0100"
+          phonePlaceholder="(240) 201-2988"
           messagePlaceholder="Your message"
           className="home-contact__lead-form"
           fieldLabels={{ name: 'Full Name', phone: 'Phone', email: 'Email', message: 'Your Message' }}

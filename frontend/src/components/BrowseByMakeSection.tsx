@@ -30,7 +30,7 @@ const groupVehiclesByMake = (vehicles: Vehicle[]): MakeGroup[] => {
 
 const MakeCard = ({ group }: { group: MakeGroup }) => (
   <Link to={`/inventory?make=${encodeURIComponent(group.name)}`} className="browse-make-card">
-    <img src={group.vehicle.images[0] || '/images/vehicle-photo-coming-soon-card.webp'} alt={`${group.name} in the Mark’s Pre-Owned Cars inventory`} loading="lazy" />
+    <img src={group.vehicle.images[0] || '/images/vehicle-photo-coming-soon-card.webp'} alt={`${group.name} in the Karz South inventory`} loading="lazy" />
     <span className="browse-make-card__label">
       <span>
         <strong>{group.name}</strong>

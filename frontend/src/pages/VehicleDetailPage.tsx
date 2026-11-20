@@ -54,7 +54,7 @@ const VehicleSummary = ({ vehicle, title, onRequest }: { vehicle: Vehicle; title
 
 const VehicleLocationPanel = () => <aside className="vehicle-location-panel">
   <h2>Location</h2>
-  <img src="/images/marks-location-hero.webp" alt="Mark’s Pre-Owned Cars vehicle lot" loading="lazy" />
+  <img src="/images/dealer-location-hero.webp" alt="Vehicles parked at a dealership lot" loading="lazy" />
   <p><FaMapMarkerAlt aria-hidden="true" /> <span>{business.address},<br />{business.cityState} {business.postalCode}</span></p>
   <a href={business.mapsUrl} target="_blank" rel="noreferrer">Get Directions <FaArrowRight aria-hidden="true" /></a>
 </aside>
@@ -174,7 +174,7 @@ export const VehicleDetailPage = () => {
   for (const [label, value] of [...baseSpecs, ...extraSpecs]) if (hasListingValue(value)) specMap.set(label.toLowerCase(), [label, String(value)])
   const specs = [...specMap.values()]
   return <>
-    <Seo title={title} description={`${title} for sale at Mark's Pre-Owned Cars in Independence, MO. Call or request info today.`} schema={{ '@context': 'https://schema.org', '@type': 'Vehicle', name: title, url: `${window.location.origin}/inventory/${vehicle.slug}`, image: vehicle.images[0] ? `${window.location.origin}${vehicle.images[0]}` : undefined, brand: vehicle.make, model: vehicle.model, vehicleModelDate: vehicle.year, ...(vehicle.mileage > 0 ? { mileageFromOdometer: `${vehicle.mileage} MI` } : {}), ...(vehicle.price > 0 ? { offers: { '@type': 'Offer', url: `${window.location.origin}/inventory/${vehicle.slug}`, price: vehicle.price, priceCurrency: 'USD' } } : {}) }} />
+    <Seo title={title} description={`${title} for sale at Karz South in Funkstown, MD. Call or request info today.`} schema={{ '@context': 'https://schema.org', '@type': 'Vehicle', name: title, url: `${window.location.origin}/inventory/${vehicle.slug}`, image: vehicle.images[0] ? `${window.location.origin}${vehicle.images[0]}` : undefined, brand: vehicle.make, model: vehicle.model, vehicleModelDate: vehicle.year, ...(vehicle.mileage > 0 ? { mileageFromOdometer: `${vehicle.mileage} MI` } : {}), ...(vehicle.price > 0 ? { offers: { '@type': 'Offer', url: `${window.location.origin}/inventory/${vehicle.slug}`, price: vehicle.price, priceCurrency: 'USD' } } : {}) }} />
     <main className="vehicle-detail-page">
       <div className="vehicle-detail-container">
         <div className="vehicle-detail-layout">

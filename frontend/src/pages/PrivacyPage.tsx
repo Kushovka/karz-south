@@ -13,9 +13,9 @@ const sections = [
 
 export const PrivacyPage = () => (
   <>
-    <Seo title="Privacy Policy" description="Read Mark's Pre-Owned Cars privacy policy for website leads, cookies, analytics, and dealership communication." />
+    <Seo title="Privacy Policy" description="Read Karz South privacy policy for website leads, cookies, analytics, and dealership communication." />
     <section className="section soft-band">
-      <SectionHeading eyebrow="Privacy" title="Privacy Policy" text="How Mark's Pre-Owned Cars handles website inquiries, cookies, and customer communication." />
+      <SectionHeading eyebrow="Privacy" title="Privacy Policy" text="How Karz South handles website inquiries, cookies, and customer communication." />
       <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
         <div className="surface-card rounded-md p-6">
           <p className="eyebrow">Last updated: June 24, 2026</p>

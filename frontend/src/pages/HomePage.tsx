@@ -13,8 +13,8 @@ import { autoDealerSchema } from '../utils/schema'
 export const HomePage = () => (
   <>
     <Seo
-      title="Used Cars in Independence, MO"
-      description="Shop quality pre-owned cars, trucks, and SUVs at Mark's Pre-Owned Cars."
+      title="Used Cars in Funkstown, MD"
+      description="Shop quality pre-owned cars, trucks, and SUVs at Karz South in Funkstown, Maryland."
       schema={autoDealerSchema}
     />
     <section className="mark-home-hero" aria-labelledby="home-title">
@@ -28,12 +28,12 @@ export const HomePage = () => (
         <Link to="/inventory" className="mark-home-hero__shop">Shop All Inventory <FaChevronRight aria-hidden="true" /></Link>
       </aside>
       <div className="mark-home-hero__photo">
-        <img src="/images/marks-location-hero.webp" alt="Mark’s Pre-Owned Cars dealership lot along US Highway 40" fetchPriority="high" />
+        <img src="/images/dealer-location-hero.webp" alt="Vehicles parked at a dealership lot" fetchPriority="high" />
       </div>
       <div className="mark-home-hero__intro">
         <div>
-          <h1 id="home-title">Used Cars, Trucks &amp; SUVs in Independence</h1>
-          <p>Locally located on US Highway 40. Browse available vehicles or give us a call.</p>
+          <h1 id="home-title">Used Cars, Trucks &amp; SUVs in Funkstown</h1>
+          <p>Located at 302 S Edgewood Dr in Funkstown, Maryland. Browse available vehicles or give us a call.</p>
         </div>
         <a href={business.mapsUrl} target="_blank" rel="noreferrer" onClick={() => trackContactCta('directions_click', 'Homepage Hero Directions')}>Get Directions <FaChevronRight aria-hidden="true" /></a>
       </div>

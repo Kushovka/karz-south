@@ -109,8 +109,8 @@ export const Header = () => {
 
   return <>
     <header id="site-header" className="mark-site-header">
-      <Link to="/" className={brandClass} aria-label="Mark's Pre-Owned Cars home" onClick={closeMenu}>
-        <img className="mark-site-brand__image" src="/images/marks-preowned-logo.png" alt="Mark's Pre-Owned Cars" />
+      <Link to="/" className={brandClass} aria-label="Karz South home" onClick={closeMenu}>
+        <img className="mark-site-brand__image" src="/images/karz-south-logo.png" alt="Karz South" />
       </Link>
       <div className="mark-site-header__content">
         <nav className="mark-site-nav" aria-label="Main navigation">
@@ -143,7 +143,7 @@ export const Header = () => {
         <motion.div role="dialog" aria-modal="true" aria-label="Mobile navigation" className="absolute inset-y-0 left-0 z-10 w-[min(68vw,440px)] overflow-y-auto bg-[#243B53] p-6 text-white shadow-2xl" initial={{ x: '-100%' }} animate={{ x: 0 }} exit={{ x: '-100%' }} transition={{ duration: 0.28, ease: [0.22, 1, 0.36, 1] }}>
           <button type="button" aria-label="Close menu" onClick={closeMenu} className="absolute right-5 top-5 z-10 grid h-11 w-11 place-items-center border-0 bg-transparent text-3xl text-white transition-opacity hover:opacity-75 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"><FaTimes aria-hidden="true" /></button>
           <div className="mx-auto flex min-h-full max-w-xl flex-col items-center gap-8 py-5">
-            <img className="mark-site-brand__image--menu" src="/images/marks-preowned-logo.png" alt="Mark's Pre-Owned Cars" />
+            <img className="mark-site-brand__image--menu" src="/images/karz-south-logo.png" alt="Karz South" />
             <nav className="flex w-full flex-col" aria-label="Mobile navigation">
               {navItems.map((item) => <NavLink key={item.href} to={item.href} end={item.href === '/'} onClick={closeMenu} className={({ isActive }) => mobileNavClass(isActive)}>{item.label}</NavLink>)}
               <NavLink to="/about" onClick={closeMenu} className={() => mobileNavClass(pathname === '/about' || pathname.startsWith('/about/') || pathname === '/team')}>About Us</NavLink>

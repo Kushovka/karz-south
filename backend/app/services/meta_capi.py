@@ -95,7 +95,7 @@ def send_lead_event(
         content_type = "product"
         value = vehicle.price
     else:
-        content_ids = [f"marks-preowned-cars-{lead.lead_type}"]
+        content_ids = [f"karz-south-{lead.lead_type}"]
         content_type = "service"
         value = 0
 

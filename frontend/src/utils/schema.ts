@@ -8,8 +8,8 @@ export const autoDealerSchema = {
   address: {
     '@type': 'PostalAddress',
     streetAddress: business.address,
-    addressLocality: 'Independence',
-    addressRegion: 'MA',
+    addressLocality: 'Funkstown',
+    addressRegion: 'MD',
     postalCode: business.postalCode,
     addressCountry: 'US',
   },
