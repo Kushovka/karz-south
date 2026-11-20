@@ -1,6 +1,5 @@
-const placeId = 'ChIJQTQmtqvtyYkRWz_KQ-aPAXY'
-const mapsUrl = `https://www.google.com/maps/place/?q=place_id:${placeId}`
-const mapEmbedUrl = `https://maps.google.com/maps?output=embed&q=place_id:${placeId}`
+const mapsUrl = 'https://www.google.com/maps/place/Karz+South/@39.6105637,-77.7037393,17z'
+const mapEmbedUrl = 'https://maps.google.com/maps?q=39.6105637,-77.7037393&z=16&output=embed'
 
 export const business = {
   name: 'Karz South',
