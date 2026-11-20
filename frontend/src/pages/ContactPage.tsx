@@ -37,7 +37,7 @@ export const ContactPage = () => (
         <div className="contact-redesign__info-row contact-redesign__hours">
           <span className="contact-redesign__icon"><FaClock /></span><div><strong>Hours of Operation</strong><span>Mon, Fri: 9:00 AM – 5:00 PM<br />Tue – Thu: 1:00 PM – 5:00 PM<br />Sat: 9:00 AM – 3:00 PM<br />Sun: Closed</span></div>
         </div>
-        <img className="contact-redesign__location-photo" src="/images/dealer-location-lot.webp" alt="Vehicles parked at a dealership lot" loading="lazy" />
+        <img className="contact-redesign__location-photo" src="/images/karz-south-about.webp" alt="Vehicles parked at a dealership lot" loading="lazy" />
       </aside>
     </section>
 

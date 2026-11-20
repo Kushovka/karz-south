@@ -54,7 +54,7 @@ const VehicleSummary = ({ vehicle, title, onRequest }: { vehicle: Vehicle; title
 
 const VehicleLocationPanel = () => <aside className="vehicle-location-panel">
   <h2>Location</h2>
-  <img src="/images/dealer-location-hero.webp" alt="Vehicles parked at a dealership lot" loading="lazy" />
+  <img src="/images/karz-south-home-hero.webp" alt="Vehicles parked at a dealership lot" loading="lazy" />
   <p><FaMapMarkerAlt aria-hidden="true" /> <span>{business.address},<br />{business.cityState} {business.postalCode}</span></p>
   <a href={business.mapsUrl} target="_blank" rel="noreferrer">Get Directions <FaArrowRight aria-hidden="true" /></a>
 </aside>

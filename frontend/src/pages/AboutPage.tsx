@@ -22,7 +22,7 @@ export const AboutPage = () => <main className="about-page about-modern">
   <Seo title="About Karz South" description="Meet Karz South, a locally owned dealership serving Funkstown and nearby communities." />
 
   <section className="am-hero">
-    <img className="am-hero-photo" src="/images/dealer-location-hero.webp" alt="Vehicles parked at a dealership lot" />
+    <img className="am-hero-photo" src="/images/karz-south-home-hero.webp" alt="Vehicles parked at a dealership lot" />
     <div className="am-hero-shade" />
     <div className="am-hero-inner">
       <p className="am-eyebrow">About Us</p>
@@ -38,7 +38,7 @@ export const AboutPage = () => <main className="about-page about-modern">
       <p>At Karz South, we’re a locally owned and operated dealership in Funkstown, Maryland, focused on one simple thing — helping our customers find a reliable, affordable vehicle.</p>
       <p>We offer a selection of quality used cars, trucks, and SUVs, with straightforward service and a no-pressure approach. Our goal is to make the buying process easy, honest, and stress-free.</p>
     </div>
-    <img src="/images/dealer-location-lot.webp" alt="Vehicles parked across a dealership lot" loading="lazy" />
+    <img src="/images/karz-south-about.webp" alt="Vehicles parked across a dealership lot" loading="lazy" />
   </section>
 
   <section className="am-values" aria-label="What customers can expect">
@@ -50,7 +50,7 @@ export const AboutPage = () => <main className="about-page about-modern">
   </section>
 
   <section className="am-commitment">
-    <img src="/images/dealer-location-roadside.webp" alt="Dealership lot along the roadside" loading="lazy" />
+    <img src="/images/karz-south-contact.webp" alt="Dealership lot along the roadside" loading="lazy" />
     <div className="am-commitment-copy">
       <h2>Our Commitment</h2>
       <p>We stand behind the vehicles we sell and work hard to earn the trust of every customer. Whether you’re buying your first vehicle, upgrading, or looking for a dependable truck or SUV, we’re here to help you find the right fit.</p>
@@ -59,7 +59,7 @@ export const AboutPage = () => <main className="about-page about-modern">
   </section>
 
   <section className="am-visit">
-    <img src="/images/dealer-location-hero.webp" alt="" aria-hidden="true" />
+    <img src="/images/karz-south-home-hero.webp" alt="" aria-hidden="true" />
     <div className="am-visit-shade" />
     <div className="am-visit-content">
       <h2>Visit Us Today</h2>
